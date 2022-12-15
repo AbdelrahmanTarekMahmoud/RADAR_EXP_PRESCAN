@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+Radar_1_mount = visnodes.VisTransform.createTransformNode(r"Radar_1_mount")
+scene.Audi_A3_2.addChild(Radar_1_mount)
+scene.getTransformChild("Radar_1_mount")
+Radar_1_mount.setTranslation(3.50999999046326, 0, 0.449999988079071)
+Radar_1_mount.setRotation(0, 1, 0, 0)
+
